@@ -12,7 +12,8 @@ analytic queries on twitter data is designed, developed and deployed.
 Please feel free to check out **Twitter_Analysis_Poster.pdf** for more details about the project
 
 * The project contains 3 main parts.
-* Data Collection / Data Storage::
+* Data Collection / Data Storage:
+
   Twitter data is collected with the "tweepy_streamer.py" program in data_conllection folder. 
   Please note that 
   1. You need to store your own Twitter credentials in "twitter_credentials.py" in the same location.
@@ -37,9 +38,10 @@ Please feel free to check out **Twitter_Analysis_Poster.pdf** for more details a
   Please check out the set-up part for details about installing and running the program.
     
 
-* Presenting the results on the webpage: 
- Please note that the web pages can be accessed by the index.html in "www' folder.
- The webpages are designed on **Responsive Design** and all pages have liquid layout.
+* Presenting the results on the webpage:
+
+  Please note that the web pages can be accessed by the index.html in "www' folder.
+  The webpages are designed on **Responsive Design** and all pages have liquid layout.
 
 
 ## Technologies
