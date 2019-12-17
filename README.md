@@ -31,7 +31,7 @@ The project contains 3 main parts.
    
 * Running the program:
 
-  The main code for the analysis can be found in "twitter_analysis.py"
+  The main code for the analysis can be found in **"twitter_analysis.py"**
   
   When the program is ran within the Docker container. it generates 2 output folders, "outs" and "plots" respectively. 
   A figure for each query is stored in the "plots" folder while the result of each query is stored in another folder in "outs" folder.
