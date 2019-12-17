@@ -11,21 +11,23 @@ analytic queries on twitter data is designed, developed and deployed.
 
 Please feel free to check out **Twitter_Analysis_Poster.pdf** for more details about the project
 
-* The project contains 3 main parts.
+The project contains 3 main parts.
 * Data Collection / Data Storage:
 
   Twitter data is collected with the "tweepy_streamer.py" program in data_conllection folder. 
   Please note that 
-  1. You need to store your own Twitter credentials in "twitter_credentials.py" in the same location.
+  1. You need to store your own Twitter credentials in "twitter_credentials.py" in the same folder.
   2. After storing the twitter data in the file (ie: file_YYYYMMDDHHMMSS.txt), you will need to rename "twitter_data.json" 
-     and move it to "data" folder with the following commands
+     and move it to "data" folder with the following command:
      
-     mv file_YYYYMMDDHHMMSS.txt ../data/twitter_data.json
-     
+     ```
+     $ mv file_YYYYMMDDHHMMSS.txt ../data/twitter_data.json
+     ```
+        
  
    Twitter data is stored in the "data" folder with the name "twitter_data.json".
-   This is data-driven application. When you run the application within the container, 
-   please make sure to put the data in "data" folder where you invoke the container.
+   This is a **data-driven application.** When you run the application within the container, 
+   please make sure to put the input data in "data" folder where you invoke the container.
    
 * Running the program:
 
